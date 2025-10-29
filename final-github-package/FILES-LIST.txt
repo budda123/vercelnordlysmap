@@ -1,0 +1,23 @@
+LISTA PLIKOW W PACZCE: 
+ 
+PLIKI GLOWNE: 
+- package.json 
+- package-lock.json 
+- next.config.js (naprawiony) 
+- netlify.toml 
+- tsconfig.json 
+- tailwind.config.ts 
+- postcss.config.js 
+- README.md 
+- .gitignore 
+ 
+FOLDERY: 
+- src/ (caly kod aplikacji, bez API) 
+- public/ (statyczne pliki) 
+ 
+NAPRAWY: 
+- Usunieto folder src/app/api/ 
+- Naprawiono next.config.js 
+- Naprawiono src/app/spots/page.tsx 
+- Naprawiono src/hooks/useAuroraForecast.ts 
+- Naprawiono src/components/ForecastCharts.tsx 

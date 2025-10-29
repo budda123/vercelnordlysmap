@@ -1,0 +1,7 @@
+api\
+*.log
+*.tmp
+node_modules\
+.next\
+out\
+.env.local
