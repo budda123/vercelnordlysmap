@@ -1,0 +1,34 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="auroraGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0ea5e9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0c4a6e;stop-opacity:0.6" />
+    </radialGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#skyGradient)" rx="64"/>
+  
+  <!-- Aurora waves -->
+  <path d="M0,200 Q128,150 256,180 T512,160 L512,0 L0,0 Z" fill="url(#auroraGradient)" opacity="0.7"/>
+  <path d="M0,250 Q128,200 256,230 T512,210 L512,0 L0,0 Z" fill="url(#auroraGradient)" opacity="0.5"/>
+  <path d="M0,300 Q128,250 256,280 T512,260 L512,0 L0,0 Z" fill="url(#auroraGradient)" opacity="0.3"/>
+  
+  <!-- Mountains silhouette -->
+  <path d="M0,400 L80,320 L160,380 L240,300 L320,360 L400,280 L480,340 L512,320 L512,512 L0,512 Z" fill="#0f172a" opacity="0.8"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="2" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="60" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="90" r="2" fill="white" opacity="0.9"/>
+  <circle cx="450" cy="70" r="1" fill="white" opacity="0.7"/>
+  <circle cx="300" cy="40" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- App icon text -->
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">N</text>
+</svg>
