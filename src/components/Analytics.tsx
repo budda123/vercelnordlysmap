@@ -1,12 +1,14 @@
 'use client'
 
 import Script from 'next/script'
+import { Analytics as VercelAnalytics } from '@vercel/analytics/next'
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX' // Replace with your actual GA4 ID
 
 export default function Analytics() {
   return (
     <>
+      <VercelAnalytics />
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"
